@@ -1,4 +1,4 @@
-package HW05.Model.Service;
+package HW05.Model.Service.Impl;
 
 import HW05.Model.Groups.StudyGroup;
 import HW05.Model.Users.Student;
@@ -12,7 +12,6 @@ public interface DataService {
 
     Teacher createTeacher();
 
-    List<User> read(List<User> userList);
     StudyGroup createStudyGroup(List<Teacher> teachers, List<Student> students);
 
 }
